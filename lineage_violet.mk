@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
