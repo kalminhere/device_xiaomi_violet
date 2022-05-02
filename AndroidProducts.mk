@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_violet.mk
+    $(LOCAL_DIR)/spiceos_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_violet-userdebug \
-    lineage_violet-user \
-    lineage_violet-eng
+    spiceos_violet-userdebug \
+    spiceos_violet-user \
+    spiceos_violet-eng
